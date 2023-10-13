@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-form {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px 10%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.from {
+    width: 40vw;
+    /* align-items: center; */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon a i {
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+    color: black;
+    font-size: 1.5rem;
+    margin: 7% 0;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.inputs input {
+    width: 27vw;
+    height: 7vh;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: black;
+    padding: 15px;
+}
+
+.pass input {
+    width: 27vw;
+    height: 7vh;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: black;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.text {
+    margin: 17px 0;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    color: white;
+    background-color: #D66D75;
+    border: none;
+    border-radius: 20px;
+    width: 13vw;
+    height: 7vh;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+
+
+.desc {
+    width: 40vw;
+    height: 100vh;
+    background: #D66D75;
+    background: linear-gradient(to right, #E29587, #D66D75);
+    text-align: center;
+}
+
+.desc h1 {
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+    margin-top: 35%;
+}
+
+.desc p {
+    color: white;
+    padding: 0 10%;
+}
